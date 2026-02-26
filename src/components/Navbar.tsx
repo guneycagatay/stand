@@ -12,8 +12,7 @@ export default function Navbar() {
                 <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
                     <div className="flex h-16 items-center justify-between">
                         <Link href="#top" className="flex items-center gap-3">
-                            {/* LOGO - Image handle logic will be added */}
-                            <div className="h-10 w-10 bg-gold/20 rounded-lg flex items-center justify-center font-bold text-gold">ÖB</div>
+                            <img src="/img/logo.png" alt="Özarı Branda Logo" className="h-10 sm:h-12 w-auto object-contain" />
                             <div className="leading-tight hidden sm:block">
                                 <div className="text-sm font-extrabold tracking-tight">STANDÇADIRI</div>
                                 <div className="text-[11px] text-white/60 -mt-0.5">1985’ten beri tedarik ve çözüm odaklı yaklaşım</div>
