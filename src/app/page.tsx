@@ -10,7 +10,7 @@ import GuideSection from "@/components/GuideSection";
 import PriceCalculator from "@/components/PriceCalculator";
 import FAQ from "@/components/FAQ";
 
-const WHATSAPP_URL = "https://api.whatsapp.com/send/?phone=905315969274&text=Merhaba, stand çadırı için teklif talep etmek istiyorum.&type=phone_number&app_absent=0";
+const WHATSAPP_URL = "https://api.whatsapp.com/send/?phone=905315969274&text=Merhaba, stand çadırı için teklif talep etmek istiyorum. standcadiri.com aracılığıyla iletişime geçtim.&type=phone_number&app_absent=0";
 
 export default function Home() {
     return (

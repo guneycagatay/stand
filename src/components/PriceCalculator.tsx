@@ -156,7 +156,7 @@ export default function PriceCalculator() {
                                 </div>
 
                                 <a
-                                    href={`https://api.whatsapp.com/send/?phone=905315969274&text=Merhaba, hesaplama aracınızı kullandım.%0A%0ASeçilen Seçenekler:%0A- Boyut: ${selectedSize.label}%0A- Yan Panel: ${wallCount} Adet%0A- Baskı: ${isDigitalPrint ? 'Dijital Baskılı' : 'Baskısız'}%0A- İskelet: ${isProFrame ? 'Profesyonel Kalın' : 'Standart'}%0A%0AGösterilen Tahmini Tutar: ${totalPrice.toLocaleString('tr-TR')} TL%0A%0ABu seçimler için net fiyat teklifi almak istiyorum.`}
+                                    href={`https://api.whatsapp.com/send/?phone=905315969274&text=Merhaba, hesaplama aracınızı kullandım.%0A%0ASeçilen Seçenekler:%0A- Boyut: ${selectedSize.label}%0A- Yan Panel: ${wallCount} Adet%0A- Baskı: ${isDigitalPrint ? 'Dijital Baskılı' : 'Baskısız'}%0A- İskelet: ${isProFrame ? 'Profesyonel Kalın' : 'Standart'}%0A%0AGösterilen Tahmini Tutar: ${totalPrice.toLocaleString('tr-TR')} TL%0A%0ABu seçimler için net fiyat teklifi almak istiyorum. standcadiri.com aracılığıyla iletişime geçtim.`}
                                     target="_blank"
                                     className="w-full inline-flex items-center justify-center px-6 py-4 rounded-2xl grad-btn font-bold shadow-xl shadow-gold/20 hover:opacity-90 active:scale-95 transition-all"
                                 >
