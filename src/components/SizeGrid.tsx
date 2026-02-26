@@ -9,7 +9,7 @@ export default function SizeGrid() {
     ];
 
     return (
-        <section id="boyutlar" class="py-12 sm:py-16">
+        <section id="boyutlar" className="py-12 sm:py-16">
             <div>
                 <h2 className="text-2xl sm:text-3xl font-extrabold tracking-tight">Stand Çadırı Boyutları</h2>
                 <p className="mt-2 text-white/65 max-w-2xl">
